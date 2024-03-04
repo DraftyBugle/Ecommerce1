@@ -1,0 +1,43 @@
+.formhome{
+
+    z-index: 900; 
+    position:fixed;
+    right: 150px;
+    top: 15px;
+}
+input{
+    border-radius: 10px;
+    border-color: rgb(159, 177, 171);
+    height: 20px;
+    width: 150px;
+}
+.search-iconHome{
+    position: relative;
+    right: 20px;
+    top: 3px;
+}
+
+@media screen and (max-width: 500px) {
+    .formhome{
+
+        position:relative;
+        right: 0px;
+        top: 5px;
+      
+    }
+   
+    
+}
+
+
+
+@media screen and (max-width: 1125px) {
+    .formhome{
+
+        position:relative;
+        right: 0px;
+        top: 5px;
+      
+    }
+
+}

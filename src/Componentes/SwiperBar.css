@@ -1,0 +1,105 @@
+
+.swiper {
+  width: 100%; /* Ancho completo del slider */
+  max-width: 1200px; /* Ancho máximo del slider (ajusta según tus necesidades) */
+  margin: 0 auto; /* Centra el slider en el contenedor */
+margin-top: 40px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+
+}
+
+.swiper-slide img {
+  width: 1200px; /* Ancho específico de la imagen (ajusta según tus necesidades) */
+  height: 400px; 
+}
+
+
+
+@media screen and (max-width: 1219px) {
+  .swiper-slide img {
+       
+          width: 1000px; /* Ancho específico de la imagen (ajusta según tus necesidades) */
+          height: 300px; 
+        
+      }
+      .swiper {
+        width: 100%; /* Ancho completo del slider */
+        max-width: 1000px; /* Ancho máximo del slider (ajusta según tus necesidades) */
+        margin: 0 auto; /* Centra el slider en el contenedor */
+      margin-top: 40px;
+      }
+      
+}
+@media screen and (max-width: 1100px) {
+  .swiper-slide img {
+       
+          width: 1000px; /* Ancho específico de la imagen (ajusta según tus necesidades) */
+          height: 300px; 
+        
+      }
+      .swiper {
+        width: 100%; /* Ancho completo del slider */
+        max-width: 1000px; /* Ancho máximo del slider (ajusta según tus necesidades) */
+        margin: 0 auto; /* Centra el slider en el contenedor */
+      margin-top: 40px;
+      }
+      
+}
+@media screen and (max-width: 1020px) {
+  .swiper-slide img {
+       
+    width: 800px; /* Ancho específico de la imagen (ajusta según tus necesidades) */
+    height: 300px; 
+  
+}
+.swiper {
+  width: 100%; /* Ancho completo del slider */
+  max-width: 800px; /* Ancho máximo del slider (ajusta según tus necesidades) */
+  margin: 0 auto; /* Centra el slider en el contenedor */
+margin-top: 40px;
+}
+}
+@media screen and (max-width: 820px) {
+  .swiper-slide img {
+       
+    width: 700px; /* Ancho específico de la imagen (ajusta según tus necesidades) */
+ 
+}
+.swiper {
+ 
+  max-width: 700px; /* Ancho máximo del slider (ajusta según tus necesidades) */
+ 
+}
+}
+@media screen and (max-width: 720px) {
+  .swiper-slide img {
+       
+    width: 500px; /* Ancho específico de la imagen (ajusta según tus necesidades) */
+ 
+}
+.swiper {
+ 
+  max-width: 500px; /* Ancho máximo del slider (ajusta según tus necesidades) */
+ 
+}
+}
+
+@media screen and (max-width: 500px) {
+  .swiper-slide img {
+       
+    width: 500px; /* Ancho específico de la imagen (ajusta según tus necesidades) */
+    height: 300px; 
+  
+}
+.swiper {
+  width: 100%; /* Ancho completo del slider */
+  max-width: 500px; /* Ancho máximo del slider (ajusta según tus necesidades) */
+
+}
+}
+
+

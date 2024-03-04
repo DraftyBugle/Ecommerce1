@@ -1,0 +1,128 @@
+.Nav{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+
+}
+.Nav:hover{
+    text-decoration:underline;
+    text-decoration-skip-ink: auto;
+  text-underline-offset: 8px;
+}
+nav{
+
+  width: 100%; 
+  justify-content: center; 
+
+ z-index: 900; 
+  position:fixed;
+ 
+
+}
+
+.cartprice{
+  z-index: 900; 
+  position: fixed;
+  right: 50px;
+  top: 19px;
+}
+
+.hamburgermenu{
+  display: none;
+}
+.close{
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+
+  nav{
+    width: 100%;
+  
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   text-align: center;
+   margin-top: 600px;
+   z-index: 1000; 
+  
+  }
+  .Nav{
+
+padding-left: 0px;
+padding-right: 0px;
+padding: 20px;
+margin-top:60px;
+}
+
+
+.close{
+  display: flex;
+  padding: 0px;
+  margin-top: 50px;
+}
+
+.hamburgermenu {
+  display: flex;
+  cursor: pointer;
+  position: absolute; /* Ajustar la posición del icono */
+  top: 20px; /* Ajustar la posición vertical según sea necesario */
+  left: 20px; /* Ajustar la posición horizontal según sea necesario */
+  z-index: 900; /* Asegurar que esté por encima del menú */
+
+}
+.cartprice{
+  display: none;
+}
+
+}
+
+@media screen and (max-width: 1125px) {
+
+  nav{
+    width: 100%;
+  
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   text-align: center;
+   margin-top: 600px;
+   z-index: 1000; 
+  
+  }
+  .Nav{
+
+padding-left: 0px;
+padding-right: 0px;
+padding: 20px;
+margin-top:60px;
+}
+
+
+.close{
+  display: flex;
+  padding: 0px;
+  margin-top: 50px;
+}
+.containermenu{
+
+
+}
+.hamburgermenu {
+  display: flex;
+  cursor: pointer;
+  position: absolute; /* Ajustar la posición del icono */
+  top: 20px; /* Ajustar la posición vertical según sea necesario */
+  left: 20px; /* Ajustar la posición horizontal según sea necesario */
+  z-index: 900; /* Asegurar que esté por encima del menú */
+
+}
+
+.cartprice{
+  
+  position: absolute;
+}
+}

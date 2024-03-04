@@ -1,0 +1,49 @@
+.Bar{
+    background-color:·#ECEFF1;
+    z-index: 900; 
+    position:fixed;
+    right: 166px;
+    top: 15px;
+  
+}
+
+.searchicon{
+    z-index: 900; 
+    position:fixed;
+    right: 170px;
+    top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .Bar{
+       
+        position:relative;
+        right: 0px;
+        top: 5px;
+      
+    }
+    .searchicon{
+        position:relative;
+        
+        right: 20px;
+        top: 9px;
+    }
+
+}
+
+@media screen and (max-width: 1125px) {
+    .Bar{
+       
+        position:relative;
+        right: 0px;
+        top: 5px;
+      
+    }
+    .searchicon{
+        position:relative;
+        
+        right: 20px;
+        top: 9px;
+    }
+
+}

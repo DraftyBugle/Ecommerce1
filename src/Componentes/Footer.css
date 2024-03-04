@@ -1,0 +1,49 @@
+
+.footer{
+    background-color: #111;
+    width: 100%;
+    color: rgb(142, 135, 140);
+display: grid;
+grid-template-columns:500px 500px ;
+text-align: center;
+padding: 35px 0px 100px;
+border-bottom: 1px solid;
+border-color: rgb(118, 115, 115);
+justify-content: center;
+
+
+}
+ul{
+    list-style: none;
+}
+ul li{
+    margin: 10px;
+}
+.copyr{
+ background-color:#111;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    color: rgb(142, 135, 140);
+    font-size: 12px;
+}
+
+@media screen and (max-width: 500px) {
+    .footer{
+      
+    grid-template-columns:200px  ;
+   
+    
+    }
+
+}
+@media screen and (max-width: 1000px) {
+    .footer{
+      
+    grid-template-columns:200px  ;
+   
+    
+    }
+
+}

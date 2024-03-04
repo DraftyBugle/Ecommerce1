@@ -1,0 +1,44 @@
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+nav{
+ display: flex;
+background-color:  #ffff;
+padding: 20px;
+gap: 30px;
+
+}
+
+header{
+    border-bottom: 0.5px solid rgb(216, 215, 215);
+display: flex;
+align-items:  center;
+justify-content:  center;
+}
+
+.shopbag{
+position: relative;
+left: 250px;
+}
+
+.CardMen{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
+    padding: 20px;
+
+  
+}
+.CardMen img{
+    width: 300px;
+    height: 300px;
+    
+   
+}
+.CardMen {
+    background-color: rgb(236, 234, 234);
+
+}
